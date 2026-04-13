@@ -2,12 +2,14 @@
 
 # dependencies
 node_modules/
+.yarn/install-state.gz
 
 # Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
+.pnp.*
 
 # Native
 .kotlin/
@@ -31,7 +33,11 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+
+# coverage
+coverage/
 
 # typescript
 *.tsbuildinfo
